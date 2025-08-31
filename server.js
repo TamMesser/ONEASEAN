@@ -126,12 +126,6 @@ app.get('/', (req, res) => {
             </div>
             
             <div class="nav-card">
-                <h3>📁 FTP File Transfer</h3>
-                <p>Guide for creating and managing FTP file transfers as a complement to Teams file sharing.</p>
-                <a href="/doc/FTP-File-Transfer-Guide">FTP Guide →</a>
-            </div>
-            
-            <div class="nav-card">
                 <h3>🎓 Training Materials</h3>
                 <p>Training slides and agenda for user onboarding sessions.</p>
                 <a href="/doc/Teams-Training-Slides">Training Slides →</a><br>

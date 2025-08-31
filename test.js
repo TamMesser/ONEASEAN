@@ -10,6 +10,7 @@ const requiredFiles = [
   'Teams-Setup-Instructions.md', 
   'ASEAN-Teams-Setup-Checklist.md',
   'Teams-User-Guide.md',
+  'FTP-File-Transfer-Guide.md',
   'Teams-Training-Slides.md',
   'Teams-Training-Agenda.md',
   'ASEAN-Teams-Guidelines.md'

@@ -1,0 +1,22 @@
+{
+  "name": "oneasean-teams-docs",
+  "version": "1.0.0",
+  "description": "Microsoft Teams onboarding documentation for Messer ASEAN",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Build step - static files ready'",
+    "test": "node test.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["microsoft-teams", "documentation", "asean", "onboarding"],
+  "author": "Messer ASEAN",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "marked": "^5.1.2"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}

@@ -7,7 +7,8 @@
     "start": "node server.js",
     "build": "echo 'Build step - static files ready'",
     "test": "node test.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "health": "node -e \"const http = require('http'); const options = { hostname: 'localhost', port: process.env.PORT || 3000, path: '/health', method: 'GET' }; const req = http.request(options, (res) => { if (res.statusCode === 200) { console.log('✓ Application health check passed'); process.exit(0); } else { console.log('✗ Application health check failed'); process.exit(1); } }); req.on('error', () => { console.log('✗ Application is not running'); process.exit(1); }); req.end();\""
   },
   "keywords": ["microsoft-teams", "documentation", "asean", "onboarding"],
   "author": "Messer ASEAN",

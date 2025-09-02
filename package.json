@@ -7,7 +7,8 @@
     "start": "node server.js",
     "build": "echo 'Build step - static files ready'",
     "test": "node test.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "health": "curl -f http://localhost:3000/health || echo 'Server not running or unhealthy'"
   },
   "keywords": ["microsoft-teams", "documentation", "asean", "onboarding"],
   "author": "Messer ASEAN",
